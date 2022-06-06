@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- slick css -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <!-- link for bs -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <title>SMMI Bangladesh</title>
+</head>
+
+<body>
+    <header class="">
+        <div class="header-top bg-light">
+            <div class="container">
+                <div class="header-top-content d-flex align-items-center">
+                    <div class="header-logo">
+                        <a href="index.html"><img src="img/smmi-logo-final-02.gif" alt=""></a>
+                    </div>
+                    <div class="header-top-info">
+                        <h1 class="fw-bold display-2 text-uppercase text-danger">SMMI-BANGLADESH</h1>
+                        <h3 class="text-uppercase">Salesian Missionaries of Mary Immaculate</h3>
+                        <address class="h3 text-uppercase">Bangladesh</address>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                    <ul class="navbar-nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                ABOUT US</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="generelhistry.html">Genral History</a></li>
+                                <li><a class="dropdown-item" href="histry.html">History of Bangladesh</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                HOUSES</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ourministry.html">OUR MINISTRY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">GALLERY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        </div>
+        <div class="mt-5 ministry-slider py-5">
+            <div class="container">
+                <div class="section-title mb-5">
+                    <h1 class="text-capitalize text-center">our ministry</h1>
+                    <hr class="w-25 m-auto">
+                </div>
+                <ul class="list-unstyled mitionry-slide">
+                    <li class="mx-2 img-fluid my-3"><img src="img/Ministry/001.jpg" alt=""></li>
+                    <li class="mx-2 img-fluid my-3"><img src="img/Ministry/002.jpg" alt=""></li>
+                    <li class="mx-2 img-fluid my-3"><img src="img/Ministry/003.jpg" alt=""></li>
+                    <li class="mx-2 img-fluid my-3"><img src="img/Ministry/004.jpg" alt=""></li>
+                    <li class="mx-2 img-fluid my-3"><img src="img/Ministry/005.jpg" alt=""></li>
+                    <li class="mx-2 img-fluid my-3"><img  src="img/Ministry/006.jpg" alt=""></li>
+                    <!-- <li class="mx-2"><img height="250" src="img/Ministry/" alt=""></li> -->
+                    <li class="mx-2 img-fluid my-3"><img src="img/Ministry/008.jpg" alt=""></li>
+                    <li class="mx-2 img-fluid my-3"><img src="img/Ministry/009.jpg" alt=""></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="js/slick.min.js"></script>
+
+<script>
+    $('.mitionry-slide').slick({
+        centerMode: true,
+        centerPadding: '60px',
+        slidesToShow: 4,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: true,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 575,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
+
+</script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
